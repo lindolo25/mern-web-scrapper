@@ -1,5 +1,5 @@
 var express = require('express');
-const ArticlesController = require('../Controllers/ArticlesControllers');
+const ArticlesController = require('../Controllers/ArticlesController');
 var router = express.Router();
 
 /* GET users listing. */

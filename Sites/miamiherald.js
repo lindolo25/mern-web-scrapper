@@ -1,6 +1,6 @@
 var axios = require("axios");
 var cheerio = require("cheerio");
-var Article = require("../models/article");
+var Article = require("../models/Articles");
 var topics = {
     news: "https://www.miamiherald.com/news/",
     sports: "https://www.miamiherald.com/sports/",
